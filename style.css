@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+/**{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*assure que tous les elements yjou da5al
+}*/
+body{
+    background-color:hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+}
+.container{
+    padding: 100px;
+    margin: 100px;
+    background-color: white;
+    border-radius: 15px;
+}
+img{
+   width: 140vh;
+   border-radius: 15px;
+}
+.simple{
+   margin-top: 20px;
+}
+.heading{
+     color: hsl(24, 5%, 18%);
+     font-family: "Young Serif", serif;
+    
+}
+p{
+   font-size: 16px; 
+    color: hsl(30, 10%, 34%);
+}
+.paragraph{
+    margin-top: 20px;
+}
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    /*padding: 2px;*/
+    margin-top: 10px;
+}
+.headingtwo{
+    color: hsl(332, 51%, 32%);
+    padding: 20px;
+}
+.liste1{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+.preparation::marker{
+    color: hsl(332, 51%, 32%);
+}
+.ingredients::marker{
+    color: hsl(14, 45%, 36%);
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+table{
+    width: 100%;
+}
+tr , td{
+    border-bottom: 1px solid hsla(32, 10%, 34%, 0.253);
+    padding: 4px;
+}
